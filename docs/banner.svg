@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">TokenTrim</title>
+<desc id="desc">Shrink your codebase by 60-80% for LLM context prompts. Zero dependencies, 100% local.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1">
+    <stop stop-color="#0f172a"/>
+    <stop offset="1" stop-color="#1e293b"/>
+  </linearGradient>
+  <linearGradient id="greenGlow" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#10b981"/>
+    <stop offset="1" stop-color="#059669"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+  <text x="60" y="64" font-size="14" letter-spacing="4" fill="#38bdf8">LESS NOISE. MORE INTELLIGENCE.</text>
+  <text x="54" y="165" font-size="88" font-weight="700" fill="#f8fafc">TokenTrim<tspan fill="#10b981">_</tspan></text>
+  <text x="60" y="222" font-size="26" fill="#94a3b8">Shrink code by 60–80% for LLM prompts.</text>
+  <text x="60" y="303" font-size="15" letter-spacing="2" fill="#10b981">LOCAL CLI  /  ZERO DEPENDENCIES  /  AST-POWERED</text>
+</g>
+
+<!-- Visual Comparison Card on the right -->
+<g transform="translate(730, 60)">
+  <rect width="410" height="240" rx="16" fill="#0b1120" stroke="#334155" stroke-width="1.5"/>
+  <rect x="0" y="0" width="410" height="42" rx="16" fill="#1e293b"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444"/>
+  <circle cx="42" cy="21" r="5" fill="#f59e0b"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981"/>
+  <text x="205" y="26" text-anchor="middle" font-family="Consolas,monospace" font-size="13" fill="#94a3b8">tokentrim comparison</text>
+  
+  <!-- Original Box -->
+  <rect x="25" y="60" width="160" height="70" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+  <text x="38" y="85" font-family="Segoe UI,sans-serif" font-size="12" fill="#94a3b8">RAW CODE</text>
+  <text x="38" y="112" font-family="Consolas,monospace" font-size="18" font-weight="bold" fill="#f8fafc">12,400 <tspan font-size="12" font-weight="normal" fill="#64748b">tok</tspan></text>
+
+  <!-- Arrow -->
+  <text x="198" y="105" text-anchor="middle" font-family="Consolas,monospace" font-size="20" fill="#38bdf8">→</text>
+
+  <!-- Trimmed Box -->
+  <rect x="225" y="60" width="160" height="70" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+  <text x="238" y="85" font-family="Segoe UI,sans-serif" font-size="12" fill="#6ee7b7">TRIMMED AST</text>
+  <text x="238" y="112" font-family="Consolas,monospace" font-size="18" font-weight="bold" fill="#a7f3d0">2,150 <tspan font-size="12" font-weight="normal" fill="#6ee7b7">tok</tspan></text>
+
+  <!-- Badge -->
+  <rect x="25" y="152" width="360" height="48" rx="8" fill="url(#greenGlow)"/>
+  <text x="205" y="182" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="bold" fill="#ffffff">-82.7% TOKENS SAVED</text>
+  <text x="205" y="222" text-anchor="middle" font-family="Consolas,monospace" font-size="13" fill="#38bdf8">Signatures, types &amp; docs preserved</text>
+</g>
+</svg>
